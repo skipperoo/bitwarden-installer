@@ -9,5 +9,5 @@ This script downloads the latest version of Bitwarden desktop, and creates a `.d
 To run the script enter this command in the terminal:
 
 ```bash
-curl -sSL - | bash
+curl -sSL https://raw.githubusercontent.com/skiby7/bitwarden-installer/master/install-bitwarden.sh | bash
 ```
