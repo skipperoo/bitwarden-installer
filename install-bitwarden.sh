@@ -67,6 +67,7 @@ spin() {
     TIME_ELAPSED=$(calc $TIME_ELAPSED + $DELTA)
 }
 
+### Installer ###
 if [[ "${EUID}" != 0 ]]
 then
 	SUDO=sudo

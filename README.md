@@ -1,6 +1,6 @@
 # Bitwarden AppImage Installer
 
-Encountering various issues wit both the [`flatpak`](https://flathub.org/apps/com.bitwarden.desktop) (experiencing UI blurriness on HiDPI displays) and the [`snap`](https://snapcraft.io/bitwarden) (encountering keyboard input issues) packages, I decide to make my own installation script to fetch the latest `AppImage` package from the [official website](https://bitwarden.com/).
+Encountering various issues wit both the [`flatpak`](https://flathub.org/apps/com.bitwarden.desktop) (experiencing UI blurriness on HiDPI displays) and the [`snap`](https://snapcraft.io/bitwarden) (encountering keyboard input issues) packages, I decide to make my own installation script to fetch the latest `AppImage` package from the [official website](https://bitwarden.com/), which has always been the most reliable way to use Bitwarden on my system.
 
 ## Usage
 
