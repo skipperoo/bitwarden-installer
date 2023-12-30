@@ -1,5 +1,6 @@
 #!/bin/bash
 
+### Colors ###
 RED="\x1b[31m"
 GREEN="\x1b[32m"
 YELLOW="\x1b[33m"
@@ -10,6 +11,7 @@ RESET="\x1b[0m"
 RESET_N="\x1b[0m\n"
 SCREEN="\033[2J\033[H"
 
+### Clean-up
 dir=$(pwd)
 atexit() {
 	cd $dir
@@ -17,6 +19,9 @@ atexit() {
 	echo -e "\nTotal time elapsed -> ${CYAN}${TIME_ELAPSED}s${RESET}"
 
 }
+
+### Spinner ###
+
 TIME_ELAPSED=0
 
 calc() { awk "BEGIN{ printf \"%.2f\n\", $* }"; }
