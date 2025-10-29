@@ -6,7 +6,7 @@ Encountering various issues with both the [`flatpak`](https://flathub.org/apps/c
 
 Simply run the following command in your terminal to execute the installation script:
 ```bash
-curl -sSL https://raw.githubusercontent.com/skiby7/bitwarden-installer/master/install-bitwarden.sh | bash
+curl -sSL https://raw.githubusercontent.com/skipperoo/bitwarden-installer/master/install-bitwarden.sh | bash
 ```
 
 This script will automatically download the latest Bitwarden desktop version and generate a corresponding `.desktop` file under `/usr/share/applications`, ensuring seamless integration with your app launcher.
